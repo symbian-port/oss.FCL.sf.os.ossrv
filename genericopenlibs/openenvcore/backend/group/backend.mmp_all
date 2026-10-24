@@ -1,0 +1,14 @@
+# GENERATED MAKEFILE : DO NOT EDIT
+
+MAKEFILE_GROUP:=DEFAULT
+# GROUPER MAKEFILE
+
+ALL::
+
+include /sf/os/ossrv/genericopenlibs/openenvcore/backend/group/backend.mmp_all.export
+include /sf/os/ossrv/genericopenlibs/openenvcore/backend/group/backend.mmp_all.bitmap
+include /sf/os/ossrv/genericopenlibs/openenvcore/backend/group/backend.mmp_all.resource_deps
+include /sf/os/ossrv/genericopenlibs/openenvcore/backend/group/backend.mmp_all.resource
+include /sf/os/ossrv/genericopenlibs/openenvcore/backend/group/backend.mmp_all.default
+
+# END OF GENERATED MAKEFILE : DO NOT EDIT

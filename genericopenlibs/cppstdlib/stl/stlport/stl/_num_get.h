@@ -55,7 +55,7 @@ template <class _CharT, class _InputIter>
 #else
 template <class _CharT, class _InputIter = istreambuf_iterator<_CharT, char_traits<_CharT> > >
 #endif
-class num_get: public locale::facet {
+class _STLP_CLASS_DECLSPEC num_get: public locale::facet {
   friend class _Locale_impl;
 public:
   typedef _CharT     char_type;

@@ -743,23 +743,23 @@ EXPORTS
 	_ZTVSt7codecvtIwc11_mb_state_tE @ 742 NONAME
 	_ZTVSt7collateIcE @ 743 NONAME
 	_ZTVSt7collateIwE @ 744 NONAME
-	_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 745 NONAME
-	_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 746 NONAME
-	_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 747 NONAME
-	_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 748 NONAME
+	_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 745 NONAME ABSENT
+	_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 746 NONAME ABSENT
+	_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 747 NONAME ABSENT
+	_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 748 NONAME ABSENT
 	_ZTVSt8ios_base @ 749 NONAME
 	_ZTVSt8messagesIcE @ 750 NONAME
 	_ZTVSt8messagesIwE @ 751 NONAME
 	_ZTVSt8numpunctIcE @ 752 NONAME
 	_ZTVSt8numpunctIwE @ 753 NONAME
-	_ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 754 NONAME
-	_ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 755 NONAME
-	_ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 756 NONAME
-	_ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 757 NONAME
-	_ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 758 NONAME
-	_ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 759 NONAME
-	_ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 760 NONAME
-	_ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 761 NONAME
+	_ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 754 NONAME ABSENT
+	_ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 755 NONAME ABSENT
+	_ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 756 NONAME ABSENT
+	_ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 757 NONAME ABSENT
+	_ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE @ 758 NONAME ABSENT
+	_ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE @ 759 NONAME ABSENT
+	_ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE @ 760 NONAME ABSENT
+	_ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE @ 761 NONAME ABSENT
 	_ZTVSt9strstream @ 762 NONAME
 	_ZThn8_NSt9strstreamD0Ev @ 763 NONAME
 	_ZThn8_NSt9strstreamD1Ev @ 764 NONAME

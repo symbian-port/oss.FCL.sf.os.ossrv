@@ -29,7 +29,7 @@ extern "C" {
 
 EXPORT_C __NAKED__ int setjmp(jmp_buf __jmpb)
 	{
-#if defined( __MARM_THUMB__) && __GCC32__
+#if defined( __MARM_THUMB__) && __GCC32__ && !defined(__EABI__)
 	asm("stmia r0!, {r4-r7}");
 	asm("mov r2, r8");
 	asm("mov r3, r9");
@@ -47,7 +47,7 @@ EXPORT_C __NAKED__ int setjmp(jmp_buf __jmpb)
 
 EXPORT_C __NAKED__ void longjmp(jmp_buf __jmpb, int __retval)
 	{
-#if defined( __MARM_THUMB__) && __GCC32__
+#if defined( __MARM_THUMB__) && __GCC32__ && !defined(__EABI__)
 	asm("mov	r3, r0"); // save the jmp_buf pointer
 	asm("add	r3, #16");		//add on 16 to get to high registers
 	asm("ldmia	r3!, {r4-r7}");  

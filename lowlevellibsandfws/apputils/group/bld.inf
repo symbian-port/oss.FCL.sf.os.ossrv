@@ -31,8 +31,7 @@ DEFAULT WINC
 #include "../bsul/group/bld.inf"
 
 #ifdef SYMBIAN_BAFL_MULTIPARTPARSER
-//Core OS extension
-#include "../multipartparser/group/bld.inf"
+// Multipart HTTP parsing is outside the offline Syborg system image.
 #endif
 
 PRJ_EXPORTS

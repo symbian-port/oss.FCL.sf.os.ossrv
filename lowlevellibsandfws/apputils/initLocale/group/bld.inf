@@ -27,7 +27,8 @@ testLocale.iby /epoc32/rom/include/testlocale.iby
 ../data/1020e4d3.cre /epoc32/release/winscw/urel/z/private/10202be9/1020e4d3.cre
 
 // ConfML files
-../conf/apputils_1020e4d3.crml   OS_LAYER_EXPORTS_CRML(apputils_1020e4d3.crml)
+// The CRML authoring source was not included in this source drop. The
+// compiled repository above is the runtime input used by the ROM.
 
 
 #else
@@ -78,5 +79,4 @@ T_LocaleFlexiOldLocaleModel.mmp manual
 T_RebootNewLocaleModel.mmp manual
 
 #endif 
-
 

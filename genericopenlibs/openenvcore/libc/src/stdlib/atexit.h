@@ -29,10 +29,11 @@
  *	@(#)atexit.h	8.2 (Berkeley) 7/3/94
  * $FreeBSD: src/lib/libc/stdlib/atexit.h,v 1.3 2003/12/19 17:11:20 kan Exp $
  *
- * © Portions copyright (c) 2005-2006  Nokia Corporation.  All rights reserved.
+ * Â© Portions copyright (c) 2005-2006  Nokia Corporation.  All rights reserved.
  */
 
 /* must be at least 32 to guarantee ANSI conformance */
 #define	ATEXIT_SIZE	32
 
+#define __cxa_finalize __libc_cxa_finalize
 void __cxa_finalize(void *dso);

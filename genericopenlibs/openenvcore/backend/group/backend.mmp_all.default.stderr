@@ -1,0 +1,3 @@
+make: *** [//epoc32/build/backend/c_68833f7f91f5be4f/backend_dll/armv5/urel/localif.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [//epoc32/build/backend/c_68833f7f91f5be4f/backend_dll/armv5/urel/posixfs.o] Error 1

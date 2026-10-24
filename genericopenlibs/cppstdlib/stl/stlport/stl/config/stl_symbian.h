@@ -58,9 +58,17 @@
 #undef _STLP_CLASS_IMPORT_DECLSPEC
 #endif
 
+#ifdef __GCCE__
+#define _STLP_CLASS_EXPORT_DECLSPEC __attribute__((visibility("default")))
+#define _STLP_CLASS_IMPORT_DECLSPEC __attribute__((visibility("default")))
+#else
 #define _STLP_CLASS_EXPORT_DECLSPEC 
 #define _STLP_CLASS_IMPORT_DECLSPEC 
+#endif
 
+#ifdef _STLP_NO_FORCE_INSTANTIATE
+#undef _STLP_NO_FORCE_INSTANTIATE
+#endif
 
 #define _STLP_NO_OWN_NAMESPACE	1
 #define _STLP_USE_NAMESPACES	1

@@ -117,6 +117,7 @@ OPTION_REPLACE	 ARMCC --dwarf2 --dwarf3
 //needed only in ABIV1 build..
 OPTION ARMCC --dwarf3
 #endif
+OPTION GCCE -fvisibility=default -fno-visibility-inlines-hidden
 
 #ifdef GCCXML
 macro __wchar_t_defined

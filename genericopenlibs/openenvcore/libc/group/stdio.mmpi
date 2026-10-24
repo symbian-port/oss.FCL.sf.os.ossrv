@@ -34,17 +34,16 @@ SOURCEPATH     ../src/stdio
 
 // source file name
 
-SOURCE			asprintf.c clrerr.c fclose.c fdopen.c feof.c ferror.c fflush.c \
-				fgetc.c fgetln.c fgetpos.c fgets.c fgetwln.c fileno.c flags.c  fopen.c fprintf.c fpurge.c fputc.c \
-				fputs.c fread.c freopen.c fscanf.c fseek.c \
-				fsetpos.c ftell.c funopen.c fwalk.c \
-				fwrite.c getc.c getchar.c gets.c getw.c \
-				printf.c putc.c putchar.c puts.c putw.c \
-				remove.c rewind.c scanf.c setbuf.c setbuffer.c setvbuf.c snprintf.c \
-				sprintf.c sscanf.c tempnam.c \
-				ungetc.c unlocked.c vasprintf.c vfprintf.c vfscanf.c \
-				vprintf.c vscanf.c vsnprintf.c vsprintf.c vsscanf.c set_fmode.c \
-			
+SOURCE			asprintf.c clrerr.c fclose.c fdopen.c feof.c ferror.c fflush.c
+SOURCE			fgetc.c fgetln.c fgetpos.c fgets.c fgetwln.c fileno.c flags.c fopen.c fprintf.c fpurge.c fputc.c
+SOURCE			fputs.c fread.c freopen.c fscanf.c fseek.c
+SOURCE			fsetpos.c ftell.c funopen.c fwalk.c
+SOURCE			fwrite.c getc.c getchar.c gets.c getw.c
+SOURCE			printf.c putc.c putchar.c puts.c putw.c
+SOURCE			remove.c rewind.c scanf.c setbuf.c setbuffer.c setvbuf.c snprintf.c
+SOURCE			sprintf.c sscanf.c tempnam.c
+SOURCE			ungetc.c unlocked.c vasprintf.c vfprintf.c vfscanf.c
+SOURCE			vprintf.c vscanf.c vsnprintf.c vsprintf.c vsscanf.c set_fmode.c
 
 
 

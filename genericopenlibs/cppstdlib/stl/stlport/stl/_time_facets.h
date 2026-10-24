@@ -112,7 +112,7 @@ template <class _Ch, class _InIt>
 #else
 template <class _Ch, class _InIt = istreambuf_iterator<_Ch, char_traits<_Ch> > >
 #endif
-class time_get : public locale::facet, public time_base {
+class _STLP_CLASS_DECLSPEC time_get : public locale::facet, public time_base {
   friend class _Locale_impl;
 
 public:
@@ -265,7 +265,7 @@ template <class _Ch, class _OutIt>
 #else
 template <class _Ch, class _OutIt = ostreambuf_iterator<_Ch, char_traits<_Ch> > >
 #endif
-class time_put : public locale::facet, public time_base {
+class _STLP_CLASS_DECLSPEC time_put : public locale::facet, public time_base {
   friend class _Locale_impl;
 public:
   typedef _Ch      char_type;

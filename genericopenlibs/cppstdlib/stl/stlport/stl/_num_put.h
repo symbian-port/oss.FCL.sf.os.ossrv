@@ -51,7 +51,7 @@ template <class _CharT, class _OutputIter>
 #else
 template <class _CharT, class _OutputIter = ostreambuf_iterator<_CharT, char_traits<_CharT> > >
 #endif
-class num_put: public locale::facet {
+class _STLP_CLASS_DECLSPEC num_put: public locale::facet {
   friend class _Locale_impl;
 public:
   typedef _CharT      char_type;

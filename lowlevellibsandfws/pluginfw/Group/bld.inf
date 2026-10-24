@@ -90,7 +90,8 @@ PRJ_MMPFILES
 ../Framework/MMPFiles/errorrsc.mmp
 
 //The test bed framework
-../Test_Bed/MMPFiles/rtest_bed.mmp 	//RTest based version of test bed.
+// The QEMU full-system image does not build the ECom test-bed library.
+// ../Test_Bed/MMPFiles/rtest_bed.mmp
 
 PRJ_TESTMMPFILES
 
